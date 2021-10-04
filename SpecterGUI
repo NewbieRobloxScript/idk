@@ -1,0 +1,348 @@
+-- thank you for using scepter gui by Boss of Passione..#0537, big thanks to carterfr#9709 ;)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/carter-fr/AnimHub/main/DraggableKavoUI.lua"))()
+    local Window = Library.CreateLib("Specter GUI", "DarkTheme")
+
+    local FamilyHouse = Window:NewTab("FamilyHouse")
+    local Arcade = Window:NewTab("Arcade")
+    local ArtGallery = Window:NewTab("ArtGallery")
+    local LuxuryHome = Window:NewTab("LuxuryHome")
+    local Hideout = Window:NewTab("Hideout")
+    local PrivateHome = Window:NewTab("PrivateHome")
+    local FamilyHouseSection = FamilyHouse:NewSection("FamilyHouse")
+    local ArcadeSection = Arcade:NewSection("Arcade")
+    local ArtGallerySection = ArtGallery:NewSection("ArtGallery")
+    local LuxuryHomeSection = LuxuryHome:NewSection("LuxuryHome")
+    local HideoutSection = Hideout:NewSection("Hideout")
+    local PrivateHomeSection = PrivateHome:NewSection("PrivateHome")
+FamilyHouseSection:NewButton("TP #1", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(73.737594604492,  35.392433166054,  38.662368774414)
+end)
+FamilyHouseSection:NewButton("TP #2", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(61.80347442627,  34.392429351807,  56.79695892334)
+end)
+FamilyHouseSection:NewButton("TP #3", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(42.993839263916,  26.392429351807,  9.3247289657593)
+end)
+FamilyHouseSection:NewButton("TP #4", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(65.870529174805,  26.392427444458,  8.2183380126953)
+end)
+FamilyHouseSection:NewButton("TP #5", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(72.67064666748,  26.392427444458,  32.47826385498)
+end)
+FamilyHouseSection:NewButton("TP #6", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(57.428783416748,  44.392425537109,  36.500438690186)
+end)
+FamilyHouseSection:NewButton("TP #7", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(76.762046813965,  44.392425537109,  23.5119972229)
+end)
+FamilyHouseSection:NewButton("TP #8", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(65.105758666992,  44.392425537109,  1.3685690164566)
+end)
+FamilyHouseSection:NewButton("TP #9", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.401668548584,  44.392425537109,  2.1860408782959)
+end)
+FamilyHouseSection:NewButton("Teleport back to van", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-28.725387573242,  35.842475891113,   55.059604644775)
+end)
+
+--Arcade:
+ArcadeSection:NewButton("TP #1", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1055.5642089844, 31.692459106445, -11.921756744385)
+end)
+ArcadeSection:NewButton("TP #2", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1068.1552734375, 31.692459106445, 39.628562927246)
+end)
+ArcadeSection:NewButton("TP #3", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1062.3342285156, 31.692459106445, 105.43126678467)
+end)
+ArcadeSection:NewButton("TP #4", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1030.2774658203, 28.692457199097, 105.20992279053)
+end)
+ArcadeSection:NewButton("TP #5", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-989.52075195313, 31.692459106445, 99.81941986084)
+end)
+ArcadeSection:NewButton("TP #6", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-975.1162109375, 31.692459106445, -16.126657485962)
+end)
+ArcadeSection:NewButton("TP #7", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-990.92230224609, 31.692459106445, 36.915107727051)
+end)
+ArcadeSection:NewButton("TP #8", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1016.9008178711, 28.692457199097, 44.670257568359)
+end)
+ArcadeSection:NewButton("TP Back To Van", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1103.1566162109, 32.993011474609, -20.216938018799)
+end)
+
+--Art Gallery
+ArtGallerySection:NewButton("TP #1", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1074.5006103516, 20.192441940308, -824.41046142578)
+end)
+ArtGallerySection:NewButton("TP #2", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1033.5454101563, 20.192428588867, -829.39739990234)
+end)
+ArtGallerySection:NewButton("TP #3", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-993.75433349609, 20.192426681519, -827.92938232422)
+end)
+ArtGallerySection:NewButton("TP #4", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-992.09313964844, 20.192411422729, -790.31945800781)
+end)
+ArtGallerySection:NewButton("TP #5", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-993.07727050781, 20.192411422729, -744.818359375)
+end)
+ArtGallerySection:NewButton("TP #6", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1035.1574707031, 20.192441940308, -745.46484375)
+end)
+ArtGallerySection:NewButton("TP #7", "if u find this, dm admin to get secret role....", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1092.6126708984, 20.192432403564, -758.71978759766)
+end)
+ArtGallerySection:NewButton("TP #8", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1028.0048828125, 20.192432403564, -788.88757324219)
+end)
+ArtGallerySection:NewButton("TP Back To Van", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1165.4313964844, 22.993015289307, -753.59216308594)
+end)
+
+
+--LuxuryHome
+LuxuryHomeSection:NewButton("TP #1", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-699.43975830078, 30.394336700439, 484.43478393555)
+end)
+LuxuryHomeSection:NewButton("TP #2", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-670.70776367188, 30.394336700439, 483.34143066406)
+end)
+LuxuryHomeSection:NewButton("TP #3", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-646.81652832031, 30.394336700439, 483.51968383789)
+end)
+LuxuryHomeSection:NewButton("TP #4", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-641.54730224609, 30.394336700439, 445.64660644531)
+end)
+LuxuryHomeSection:NewButton("TP #5", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-662.35961914063, 30.394336700439, 449.23425292969)
+end)
+LuxuryHomeSection:NewButton("TP #6", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-663.36181640625, 30.394336700439, 436.19763183594)
+end)
+LuxuryHomeSection:NewButton("TP #7", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-662.25909423828, 39.394332885742, 444.05206298828)
+end)
+LuxuryHomeSection:NewButton("TP #8", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-679.45379638672, 39.394332885742, 481.7581481933)
+end)
+LuxuryHomeSection:NewButton("TP #9", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-679.45379638672, 39.394332885742, 481.7581481933)
+end)
+LuxuryHomeSection:NewButton("TP #10", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-665.64343261719, 39.394332885742, 475.82534790039)
+end)
+LuxuryHomeSection:NewButton("TP #11", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-638.98669433594, 39.394332885742, 475.05908203125)
+end)
+LuxuryHomeSection:NewButton("TP #12", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-640.32855224609, 39.394332885742, 441.59970092773)
+end)
+LuxuryHomeSection:NewButton("TP Back To Van", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-768.73028564453, 29.662546157837, 496.15704345703)
+end)
+
+--Hideout
+HideoutSection:NewButton("TP #1", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1382.5623779297, 7.6924428939819, 262.94613647461)
+end)
+HideoutSection:NewButton("TP #2", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1417.8464355469, 7.6924428939819, 269.13726806641)
+end)
+HideoutSection:NewButton("TP #3", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1416.6883544922, 7.6924428939819, 250.3582611084)
+end)
+HideoutSection:NewButton("TP #4", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1415.1247558594, 7.6924428939819, 201.67750549316)
+end)
+HideoutSection:NewButton("TP #5", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1393.7020263672, 7.6924428939819, 243.27207946777)
+end)
+HideoutSection:NewButton("TP #6", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1416.2943115234, 16.692443847656, 250.88165283203)
+end)
+HideoutSection:NewButton("TP Back To Van", "", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1329.0609130859, 9.4930191040039, 235.75486755371)
+end)
+
+
+--PrivateHouse
+PrivateHomeSection:NewButton("TP #1", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3676.1784667969, 20.492429733276, 3139.3522949219)
+end)
+PrivateHomeSection:NewButton("TP #2", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3721.6953125, 20.492429733276, 3109.1484375)
+end)
+PrivateHomeSection:NewButton("TP #3", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3701.8676757813, 20.572427749634, 3005.2248535156)
+end)
+PrivateHomeSection:NewButton("TP #4", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3726.5280761719, 20.492429733276, 3031.6252441406)
+end)
+PrivateHomeSection:NewButton("TP #5", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3716.6457519531, 31.492429733276, 3129.8603515625)
+end)
+PrivateHomeSection:NewButton("TP #6", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3668.5739746094, 31.592426300049, 3122.2619628906)
+end)
+PrivateHomeSection:NewButton("TP #7", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3644.0756835938, 31.492429733276, 3135.3110351563)
+end)
+PrivateHomeSection:NewButton("TP #8", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3625.1748046875, 31.492429733276, 3036.4436035156)
+end)
+PrivateHomeSection:NewButton("TP #9", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3591.02734375, 31.592426300049, 3030.6862792969)
+end)
+PrivateHomeSection:NewButton("TP Back To Van", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3567.2744140625, 19.992984771729, 3140.4519042969)
+end)
+
+local Misc = Window:NewTab("Misc")
+local MiscSection = Misc:NewSection("Misc")
+
+MiscSection:NewButton("Full Bright", "Make your game at full brightness.", function()
+ game.Lighting.FogEnd = 100000
+	game.Lighting.FogStart = 0
+	game.Lighting.ClockTime = 14
+	game.Lighting.Brightness = 2
+	game.Lighting.GlobalShadows = true
+end)
+
+MiscSection:NewSlider("WalkSpeed", "Changes your walkspeed.", 250, 16, function(v)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+end)
+
+MiscSection:NewSlider("JumpPower", "Changes your jumppower.", 250, 16, function(v)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+end)
+
+MiscSection:NewButton("ESP", "Gives you esp!", function()
+
+    ALLYCOLOR = {0, 0, 255}  	
+    ENEMYCOLOR =  {0,128,0} 	
+    TRANSPARENCY = 0.5			
+    HEALTHBAR_ACTIVATED = true 	
+function createFlex()
+
+players = game:GetService("Players") 
+faces = {"Front","Back","Bottom","Left","Right","Top"} 
+currentPlayer = nil 
+lplayer = players.LocalPlayer 
+
+players.PlayerAdded:Connect(function(p)
+currentPlayer = p
+p.CharacterAdded:Connect(function(character) 
+createESP(character)			
+end)		
+end)
+
+function checkPart(obj)  if (obj:IsA("Part") or obj:IsA("MeshPart")) and obj.Name~="HumanoidRootPart" then return true end end 
+
+function actualESP(obj) 
+
+for i=0,5 do
+surface = Instance.new("SurfaceGui",obj) 
+surface.Face = Enum.NormalId[faces[i+1]] 
+surface.AlwaysOnTop = true
+
+frame = Instance.new("Frame",surface)	
+frame.Size = UDim2.new(1,0,1,0)
+frame.BorderSizePixel = 0												
+frame.BackgroundTransparency = TRANSPARENCY
+if currentPlayer.Team == players.LocalPlayer.Team then 
+frame.BackgroundColor3 = Color3.new(ALLYCOLOR[1],ALLYCOLOR[2],ALLYCOLOR[3])											
+else
+frame.BackgroundColor3 = Color3.new(ENEMYCOLOR[1],ENEMYCOLOR[2],ENEMYCOLOR[3])	
+end
+                                
+end
+end
+
+function createHealthbar(hrp) 
+board =Instance.new("BillboardGui",hrp) 
+board.Name = "total"
+board.Size = UDim2.new(1,0,1,0)
+board.StudsOffset = Vector3.new(3,1,0)
+board.AlwaysOnTop = true
+
+bar = Instance.new("Frame",board) 
+bar.BackgroundColor3 = Color3.new(255,0,0)
+bar.BorderSizePixel = 0
+bar.Size = UDim2.new(0.2,0,4,0)
+bar.Name = "total2"
+                    
+health = Instance.new("Frame",bar) 
+health.BackgroundColor3 = Color3.new(0,255,0)
+health.BorderSizePixel = 0
+health.Size = UDim2.new(1,0,hrp.Parent.Humanoid.Health/100,0)
+hrp.Parent.Humanoid.Changed:Connect(function(property) 
+hrp.total.total2.Frame.Size = UDim2.new(1,0,hrp.Parent.Humanoid.Health/100,0) 								
+end)
+end
+
+function createESP(c) 
+bugfix = c:WaitForChild("Head") 
+for i,v in pairs(c:GetChildren()) do
+if checkPart(v) then
+actualESP(v)
+end
+end
+if HEALTHBAR_ACTIVATED then --//If the user decided to
+createHealthbar(c:WaitForChild("HumanoidRootPart"))
+end
+end
+-- -----------------------------------------------------------------------------------
+for i,people in pairs(players:GetChildren())do
+if people ~= players.LocalPlayer then
+currentPlayer = people
+                            
+createESP(people.Character)
+people.CharacterAdded:Connect(function(character)
+createESP(character)			
+end)
+end
+end
+
+end 
+
+createFlex() 
+end)
+
+
+
+MiscSection:NewToggle("NoClip (NOT FULLY WORKING YET)", "Allows you too noclip through objects.", function(noclip)
+    noclip = false
+    game:GetService('RunService').Stepped:connect(function()
+
+    if noclip then
+        noclip = true
+    else
+       noclip = false
+    end
+end)
+
+
+local Details = Details:NewTab("Details")
+local DetailsSection = Details:NewSection("Details")
+
+DetailsSection:NewLabel("Script made by Boss of Passione..#0537")
+
+DetailsSection:NewButton("Copy my discord username.", "Copies my discord username to your clipboard.", function()
+    setclipboard("Boss of Passione..#0537")
+end)
+DetailsSection:NewLabel("Extra credit goes to carterfr#9709 , Asuki and 0_0 !")
+
+
+
+ --noclip variables
+   noclip = false
+   game:GetService('RunService').Stepped:Connect(function()
+       if noclip then
+           game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+       end
+   end)
+end)
